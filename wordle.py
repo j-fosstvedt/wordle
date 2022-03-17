@@ -1,7 +1,11 @@
 import random
-answer = open("C:/Python/wordle/answers.txt", "r")
+answersFile = open("C:/Python/wordle/answers.txt", "r")
 
-for i in range(100):
-    print(random.randrange(0, 10000))
+def startGame():
+    answer = answersFile.(random.randrange(0, 10000), )
+    print(answer)
+    print("hsefsdf")
 
-answer.close()
+startGame()
+
+answersFile.close()
