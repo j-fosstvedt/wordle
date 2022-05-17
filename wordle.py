@@ -9,7 +9,7 @@ words = []
 replay = False
 
 def filterWords():
-    wordsFile = open("C:/Python/wordle/answers.txt", "r")
+    wordsFile = open("answers.txt", "r")
     for word in wordsFile:
         newWord = word.replace("\n", "")
         if len(newWord) != maxWordLength:
